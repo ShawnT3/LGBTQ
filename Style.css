@@ -1,0 +1,389 @@
+@charset "utf-8";
+html {
+  scroll-behavior: smooth;
+}
+.container {
+    font-family: asul;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px hsla(0,0%,0%,1.00);
+
+}
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #010101;
+    position: fixed;
+    opacity: 0.7;
+	z-index: 1000
+	
+}
+.titile   {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-left: 15px;
+    font-size: 40px;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+
+
+.menu a:hover {
+    color: #00FCD9;
+    text-indent: 0px;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.menu a {
+    color: #F5EFEF;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+
+.container header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Gay_Pride_Flag.svg.png);
+    background-size: contain;
+    background-position: 0% 0%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container header h1 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bolder;
+}
+.container header p {
+    margin-top: 23px;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+header p a {
+    background-color: #FE0000;
+    padding-left: 18px;
+    padding-top: 11px;
+    padding-right: 18px;
+    padding-bottom: 11px;
+    border-radius: 36px;
+    text-decoration: none;
+    color: #FAF9F9;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.container .article1 {
+    background-color: #FB0004;
+    color: #FFFCFC;
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    flex-direction: column;
+}
+.container .article1 p {
+    font-size: 24px;
+    text-align: justify;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex: 2;
+}
+
+.container .article1 #a01 {
+    height: 20px;
+    background-color: hsla(0,100%,50%,1.00);
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    width: auto;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+
+}
+.container .article1 .picture1 {
+    background-image: url(1140-lgbt-flag-hands.imgcache.rev_.web_.900.518.jpg);
+    width: 100px;
+    height: 263px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    margin-right: 15px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    flex: 1;
+    border-radius: 38px;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+	
+}
+.container .article1 .picture1:hover{
+    transform: rotate(5deg) translateX(50px)scale(1.3);
+    -webkit-box-shadow: 1px 1px 5px 2px hsla(0,0%,0%,1.00);
+    box-shadow: 1px 1px 5px 2px hsla(0,0%,0%,1.00);
+}
+.container .article2 {
+    color: #FFFEFE;
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    flex-direction: column;
+    background-position: center 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    background-image: url(1972-gay-pride-8a4ef13c-7192-466b-b757-2df99f0f9625.jpg);
+}
+.container .article2 #a02 {
+    height: 20px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+
+}
+
+.container .article2 p { font-size: 24px;
+    text-align: justify;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container .article1 .shifting {
+    display: flex;
+}
+.menu a:hover {
+    font-size: larger;
+    font-weight: 700;
+}
+header p a:hover {
+    background-color: hsla(300,97%,50%,1);
+    font-size: larger;
+    font-weight: 700;
+    border-width: 30px;
+}
+.container .article3 {
+    background-color: #FFE400;
+    color: #FFFCFC;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    text-align: left;
+    flex-direction: column;
+}
+.container .article3 .website.shifting {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+    height: auto;
+}
+
+.container .article3 #a03 {height: 20px;
+    background-color: #FFE400;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+}
+.container .article3 p {
+    text-align: center;
+    margin-top: 80px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.article3 a .website1 {
+    background-image: url(LGBTQsurveyReport.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 5px 2px hsla(206,4%,33%,1.00);
+    box-shadow: 1px 1px 5px 2px hsla(206,4%,33%,1.00);
+    align-items: flex-end;
+	-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.article3 a .website1:hover .colt{ -webkit-opacity: 0.8;
+  opacity: 0.8;}
+.article3 a .website1:hover {
+  transform: translateX(-8px);
+}
+.article3 a .website2 {
+    background-image: url(stonewall_nypl_1582228u.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 5px 2px hsla(0,2%,26%,1.00);
+    box-shadow: 1px 1px 5px 2px hsla(0,2%,26%,1.00);
+    align-items: flex-end;
+	-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.article3 a .website2:hover .colt{ -webkit-opacity: 0.8;
+  opacity: 0.8;}
+.article3 a .website2:hover {
+  transform: translateY(-8px);
+}
+.article3 a .website3 {
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 5px 2px hsla(0,2%,26%,1.00);
+    box-shadow: 1px 1px 5px 2px hsla(0,2%,26%,1.00);
+    background-image: url(states-of-right.jpg);
+    margin-left: 15px;
+    align-items: flex-end;
+	-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+.article3 a .website3:hover .colt{ -webkit-opacity: 0.8;
+  opacity: 0.8;}
+.article3 a .website3:hover {
+  transform: translateX(8px);
+}
+.colt   {
+    background-color: #292929;
+    opacity: 0;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 11px;
+-webkit-transition: all 500ms ease-in-out 0s;
+  -o-transition: all 500ms ease-in-out 0s;
+  transition: all 500ms ease-in-out 0s;
+}
+
+.container .article4 {
+    background-color: #2BBE04;
+    color: #FFFCFC;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    flex-direction: column;
+}
+.container .article4 #a04 {
+    height: 20px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 900;
+    background-color: hsla(107,97%,38%,1.00);
+}
+.container .article4 .flex.container {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 53px;
+    align-items: stretch;
+}
+
+.container .article4 .flex2 {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    background-color: hsla(245,98%,49%,1.00);
+    border-radius: 24px;
+    -webkit-box-shadow: 1px 1px 5px 2px hsla(242,73%,63%,1.00);
+    box-shadow: 1px 1px 5px 2px hsla(242,73%,63%,1.00);
+    margin-right: 10px;
+}
+
+
+.container .article4 .flex3 {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    background-color: hsla(298,100%,49%,1.00);
+    border-radius: 24px;
+    margin-right: 10px;
+}
+
+.container .article4 .flex1 {
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsla(15,99%,49%,1.00);
+    border-radius: 24px;
+    -webkit-box-shadow: 1px 1px 5px 2px hsla(359,84%,57%,1.00);
+    box-shadow: 1px 1px 5px 2px hsla(359,84%,57%,1.00);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container .article4 p {
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+.container footer {
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    font-size: 14px;
+    line-height: 60px;
+    color: #E6E6E6;
+    text-align: center;
+}
